@@ -1,0 +1,27 @@
+{
+  "project": "uniapp-demo",
+  "platform": "ios",
+  "iscustom": false,
+  "safemode": true,
+  "android": {
+    "packagename": "com.ledreamer.collage",
+    "androidpacktype": "1",
+    "certalias": "",
+    "certfile": "",
+    "certpassword": "",
+    "channels": ""
+  },
+  "ios": {
+    "bundle": "com.ledreamer.collage",
+    "supporteddevice": "iPhone",
+    "isprisonbreak": true,
+    "profile": "",
+    "certfile": "",
+    "certpassword": "123"
+  },
+  "isconfusion": false,
+  "splashads": false,
+  "rpads": false,
+  "pushads": false,
+  "exchange": false
+}

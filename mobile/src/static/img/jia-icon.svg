@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/check/jia@2x</title>
+    <g id="2⃣️课程" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="课程-已开始" transform="translate(-218.000000, -317.000000)">
+            <g id="编组" transform="translate(194.000000, 265.000000)">
+                <g id="ic/check/jia" transform="translate(24.000000, 52.000000)">
+                    <circle id="椭圆形" fill="#FFAB02" cx="12" cy="12" r="12"></circle>
+                    <text id="假" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500" fill="#FFFFFF">
+                        <tspan x="5" y="17.25">假</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

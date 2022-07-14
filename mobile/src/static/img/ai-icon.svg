@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/mine/AI@2x</title>
+    <g id="ic/mine/AI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" x="0" y="0" width="22" height="22"></rect>
+        <g id="体操2_gymnastics" transform="translate(3.214355, 3.427567)" stroke="#38364D" stroke-width="1.8">
+            <path d="M8.31371174,4.944 C9.6789479,4.944 10.7857117,3.83723616 10.7857117,2.472 C10.7857117,1.10676384 9.6789479,0 8.31371174,0 C6.94847558,0 5.84171174,1.10676384 5.84171174,2.472 C5.84171174,3.83723616 6.94847558,4.944 8.31371174,4.944 Z" id="路径"></path>
+            <polyline id="路径" stroke-linejoin="round" points="7.8154752 7.81785838 6.8385408 11.2371288 2.442336 10.2601944 0 15.1448664"></polyline>
+            <polyline id="路径" stroke-linejoin="round" points="6.8385408 11.2371288 7.8154752 15.1448664 13.1886144 15.1448664"></polyline>
+            <polyline id="路径" stroke-linejoin="round" points="0 4.88705518 7.8154752 7.81785838 13.6770816 6.84092398 16.6274235 4.413242"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON/16/失败</title>
+    <g id="S-跑步申诉" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="申诉失败原因" transform="translate(-28.000000, -180.000000)" fill-rule="nonzero">
+            <g id="ICON/16/失败" transform="translate(28.000000, 180.500000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,15.5 C3.858,15.5 0.5,12.142 0.5,8 C0.5,3.858 3.858,0.5 8,0.5 C12.142,0.5 15.5,3.858 15.5,8 C15.5,12.142 12.142,15.5 8,15.5 Z" id="路径" fill="#FF555B"></path>
+                <path d="M8,14.236 C4.54833333,14.236 1.75,11.4376667 1.75,7.986 C1.75,4.53433333 4.54833333,1.736 8,1.736 C11.4516667,1.736 14.25,4.53433333 14.25,7.986 C14.25,11.4376667 11.4516667,14.236 8,14.236 Z" id="路径" fill="#FFFFFF"></path>
+                <polygon id="路径" fill="#FF555B" points="8.9455 8 11.472 10.526 10.526 11.472 8 8.945 5.474 11.4715 4.528 10.5255 7.055 8 4.5 5.4455 5.4455 4.5 8 7.0545 10.5545 4.5 11.5 5.4455"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

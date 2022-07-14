@@ -1,0 +1,272 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+    "^g-(.*)": "@/components/$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/courseAttendance/index"
+    },
+    {
+      "path": "pages/demo/index"
+    },
+    {
+      "path": "pages/courseCandidateList/index"
+    },
+    {
+      "path": "pages/courseSelection/index"
+    },
+    {
+      "path": "pages/changePassword/index",
+      "style": {
+        "navigationBarTitleText": "忘记密码"
+      }
+    },
+    {
+      "path": "pages/studentSignIn/qrCode",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    },
+    {
+      "path": "pages/studentSignIn/gps",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "app-plus": {
+          "subNVues": [
+            {
+              "id": "popup",
+              "path": "pages/studentSignIn/subNVue/popup",
+              "type": "popup",
+              "style": {
+                "margin": "auto",
+                "width": "100%",
+                "height": "100%",
+                "mask": "rgba(0,0,0,0)",
+                "background": "transparent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "pages/runningResult/index",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "app-plus": {
+          "subNVues": [
+            {
+              "id": "popup",
+              "path": "pages/runningResult/subNVue/popup",
+              "type": "popup",
+              "style": {
+                "margin": "auto",
+                "width": "100%",
+                "height": "100%",
+                "mask": "rgba(0,0,0,0)",
+                "background": "transparent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "pages/webView/index"
+    },
+    {
+      "path": "pages/noticeList/index"
+    },
+    {
+      "path": "pages/noticeDetail/index"
+    },
+    {
+      "path": "pages/runningRecord/index"
+    },
+    {
+      "path": "pages/chooseIdentity/index"
+    },
+    {
+      "path": "pages/activateTeacher/index"
+    },
+    {
+      "path": "pages/activateStudent/index"
+    },
+    {
+      "path": "pages/studentCompleteInfo/index"
+    },
+    {
+      "path": "pages/personalInfo/index"
+    },
+    {
+      "path": "pages/about/index"
+    },
+    {
+      "path": "pages/courseAttendance/scan"
+    },
+    {
+      "path": "pages/activityAttendanceDetail/activityScan"
+    },
+    {
+      "path": "pages/chooseClass/index"
+    },
+    {
+      "path": "pages/curriculum/detail"
+    },
+    {
+      "path": "pages/setting/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/changeBoundPhone/index",
+      "style": {
+        "navigationBarTitleText": "修改绑定手机号"
+      }
+    },
+    {
+      "path": "pages/courseAttendance/index"
+    },
+    {
+      "path": "pages/educationalSystemLogin/index",
+      "style": {
+        "navigationBarTitleText": "教务系统登录"
+      }
+    },
+    {
+      "path": "pages/teacherStaminaTest/project"
+    },
+    {
+      "path": "pages/teacherStaminaTest/list"
+    },
+    {
+      "path": "pages/teacherStaminaTest/scan"
+    },
+    {
+      "path": "pages/teacherStaminaTest/detail"
+    },
+    {
+      "path": "pages/studentActivitie/detail"
+    },
+    {
+      "path": "pages/activityAttendanceList/index"
+    },
+    {
+      "path": "pages/activityAttendanceDetail/index"
+    },
+    {
+      "path": "pages/studentMyActivities/index"
+    },
+    {
+      "path": "pages/studentStaminaTest/index"
+    },
+    {
+      "path": "pages/studentStaminaTest/detail"
+    },
+    {
+      "path": "pages/adminWorkbench/index"
+    },
+    {
+      "path": "pages/bannerDetail/index"
+    },
+    {
+      "path": "pages/studentMyAI/index"
+    },
+    {
+      "path": "pages/studentMyGrade/index"
+    },
+    {
+      "path": "pages/specialSubject/index"
+    },
+    {
+      "path": "pages/examinationResults/list"
+    },
+    {
+      "path": "pages/teacherActivity/index"
+    },
+    {
+      "path": "pages/aiSportsRecord/index"
+    },
+    {
+      "path": "pages/examinationResults/detail",
+      "style": {
+        "app-plus": {
+          "softinputMode": "adjustResize"
+        }
+      }
+    },
+    {
+      "path": "pages/runningSituation/index"
+    },
+    {
+      "path": "pages/riskList/index"
+    },
+    {
+      "path": "pages/runningAppeal/add"
+    },
+    {
+      "path": "pages/runningAppeal/detail"
+    },
+    {
+      "path": "pages/myAppeal/index"
+    },
+    {
+      "path": "pages/theoryExam/list"
+    },
+    {
+      "path": "pages/theoryExam/exam"
+    },
+    {
+      "path": "pages/theoryExam/detail"
+    },
+    {
+      "path": "pages/accountSecurity/index"
+    },
+    {
+      "path": "pages/teacherEvaluation/index"
+    },
+    {
+      "path": "pages/teacherEvaluation/success"
+    },
+    {
+      "path": "pages/teacherEvaluation/evaluate",
+      "style": {
+        "app-plus": {
+          "softinputMode": "adjustResize",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/faceRunningResult/index"
+    },
+    {
+      "path": "pages/faceRunningResultAll/index"
+    },
+    {
+      "path": "pages/accountCancellation/index"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "app-plus": {
+      "bounce": "none",
+      "scrollIndicator": "none"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/mine/activity</title>
+    <g id="S-3个人中心页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="0.1.1我的-学生端" transform="translate(-33.000000, -391.000000)" stroke="#38364D">
+            <g id="编组" transform="translate(32.000000, 389.000000)">
+                <polygon id="矩形" stroke-width="1.5" points="2.5 3.16513707 19.5 3.16513707 19.5 6.16513707 2.5 6.16513707"></polygon>
+                <polygon id="矩形备份" stroke-width="1.5" points="4.1 6.16513707 17.9 6.16513707 17.9 18.8348629 11 16.9474447 4.1 18.8348629"></polygon>
+                <polygon id="星形" points="11 13.4511595 9.08969793 14.4554648 9.45453316 12.3283122 7.90906632 10.8218543 10.044849 10.5115069 11 8.57615954 11.955151 10.5115069 14.0909337 10.8218543 12.5454668 12.3283122 12.9103021 14.4554648"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/error@2x</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="考试结果-上滑" transform="translate(-242.000000, -640.000000)">
+            <g id="编组-4" transform="translate(16.000000, -2.000000)">
+                <g id="编组备份" transform="translate(0.000000, 474.000000)">
+                    <g id="编组-6" transform="translate(222.000000, 165.000000)">
+                        <g id="ic/error" transform="translate(4.000000, 3.000000)">
+                            <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="20" height="20"></rect>
+                            <polygon id="路径" stroke="#FF6767" fill="#FF6767" stroke-linejoin="round" points="4.5 6.02777778 6.02777778 4.5 10 8.47222222 13.9722222 4.5 15.5 6.02777778 11.5277778 10 15.5 13.9722222 13.9722222 15.5 10 11.5277778 6.02777778 15.5 4.5 13.9722222 8.47222222 10"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

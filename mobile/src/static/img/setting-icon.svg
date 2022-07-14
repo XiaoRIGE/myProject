@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/mine/setting@2x</title>
+    <g id="ic/mine/setting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" x="0" y="0" width="22" height="22"></rect>
+        <g id="编组-3" transform="translate(2.117500, 3.449875)" stroke="#38364D" stroke-linejoin="round" stroke-width="1.8">
+            <polygon id="路径" points="13.3238832 15.10025 17.765 7.550125 13.3238832 7.48761053e-14 4.44133883 7.48761053e-14 1.89341876e-14 7.550125 4.44133883 15.10025"></polygon>
+            <path d="M8.8825,9.99352302 C10.2319399,9.99352302 11.325898,8.89956486 11.325898,7.550125 C11.325898,6.20068514 10.2319399,5.10672698 8.8825,5.10672698 C7.53306014,5.10672698 6.43910198,6.20068514 6.43910198,7.550125 C6.43910198,8.89956486 7.53306014,9.99352302 8.8825,9.99352302 Z" id="路径"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON/48/视力</title>
+    <defs>
+        <linearGradient x1="9.50079273%" y1="0%" x2="70.7228569%" y2="92.9947043%" id="linearGradient-1">
+            <stop stop-color="#80D4FF" offset="0%"></stop>
+            <stop stop-color="#265CFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-35.3%" y="-31.5%" width="170.5%" height="163.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2.46857143" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="11.8574055%" y1="4.07585216%" x2="93.4315234%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#76A7FF" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#ECF1FF" offset="27.1080445%"></stop>
+            <stop stop-color="#FBFCFF" offset="49.8476237%"></stop>
+            <stop stop-color="#CBDEFF" offset="81.0025203%"></stop>
+            <stop stop-color="#89B3FF" offset="99.01934%"></stop>
+            <stop stop-color="#7FADFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="56.4071959%" y1="6.23002015%" x2="56.4071959%" y2="185.365345%" id="linearGradient-5">
+            <stop stop-color="#8BB4FF" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#ECF3FF" stop-opacity="0.503630253" offset="60.3190301%"></stop>
+            <stop stop-color="#F1F6FF" stop-opacity="0.524669171" offset="64.6075071%"></stop>
+            <stop stop-color="#7FADFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="14.4767836%" y1="0%" x2="88.0013149%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#C4D9FF" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#ECF1FF" offset="39.2914692%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="72.0448944%" y1="-6.00475398%" x2="32.7080099%" y2="82.9526199%" id="linearGradient-9">
+            <stop stop-color="#80B3FF" offset="0%"></stop>
+            <stop stop-color="#265CFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="58.8344105%" y1="-6.87746083%" x2="58.8344105%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#80B3FF" offset="0%"></stop>
+            <stop stop-color="#265CFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="13.7305821%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#80B3FF" offset="0%"></stop>
+            <stop stop-color="#265CFF" offset="100%"></stop>
+            <stop stop-color="#265CFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="46.1393909%" y1="100%" x2="46.1393909%" y2="-59.4755886%" id="linearGradient-12">
+            <stop stop-color="#76A7FF" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#DDE6FF" offset="34.3300314%"></stop>
+            <stop stop-color="#88B2FF" offset="81.0025203%"></stop>
+            <stop stop-color="#89B3FF" offset="99.01934%"></stop>
+            <stop stop-color="#7FADFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-45.6%" y="-45.6%" width="191.1%" height="191.1%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="0.987428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-45.6%" y="-45.6%" width="191.1%" height="191.1%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="0.987428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="23.6294878%" y1="10.2752848%" x2="104.387888%" y2="100%" id="linearGradient-16">
+            <stop stop-color="#76A7FF" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#ECF1FF" offset="40.3672454%"></stop>
+            <stop stop-color="#FBFCFF" offset="59.1040906%"></stop>
+            <stop stop-color="#CBDEFF" offset="81.0025203%"></stop>
+            <stop stop-color="#89B3FF" offset="99.01934%"></stop>
+            <stop stop-color="#7FADFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="157.755148%" gradientTransform="translate(0.500000,0.500000),rotate(43.222580),scale(1.000000,1.022063),translate(-0.500000,-0.500000)" id="radialGradient-18">
+            <stop stop-color="#1D66EB" stop-opacity="0.997096686" offset="0%"></stop>
+            <stop stop-color="#ECF1FF" offset="27.1080445%"></stop>
+            <stop stop-color="#6098FB" offset="68.8267391%"></stop>
+            <stop stop-color="#89B3FF" offset="99.01934%"></stop>
+            <stop stop-color="#7FADFF" offset="100%"></stop>
+        </radialGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-21">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="体质测试" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="项目列表-班级" transform="translate(-283.000000, -340.000000)">
+            <g id="编组" transform="translate(12.000000, 181.000000)">
+                <g id="编组备份-5" transform="translate(234.000000, 145.000000)">
+                    <g id="ICON/48/视力" transform="translate(35.000000, 12.000000)">
+                        <path d="M17.189921,2 L30.810079,2 C36.0919455,2 38.0072779,2.54995196 39.9382493,3.58264678 C41.8692207,4.61534161 43.3846584,6.13077928 44.4173532,8.06175071 C45.450048,9.99272214 46,11.9080545 46,17.189921 L46,30.810079 C46,36.0919455 45.450048,38.0072779 44.4173532,39.9382493 C43.3846584,41.8692207 41.8692207,43.3846584 39.9382493,44.4173532 C38.0072779,45.450048 36.0919455,46 30.810079,46 L17.189921,46 C11.9080545,46 9.99272214,45.450048 8.06175071,44.4173532 C6.13077928,43.3846584 4.61534161,41.8692207 3.58264678,39.9382493 C2.54995196,38.0072779 2,36.0919455 2,30.810079 L2,17.189921 C2,11.9080545 2.54995196,9.99272214 3.58264678,8.06175071 C4.61534161,6.13077928 6.13077928,4.61534161 8.06175071,3.58264678 C9.99272214,2.54995196 11.9080545,2 17.189921,2 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+                        <rect id="矩形" fill="#0039E6" filter="url(#filter-2)" x="15" y="14.5" width="21" height="23.5" rx="1.97485714"></rect>
+                        <rect id="矩形" fill="url(#linearGradient-3)" filter="url(#filter-4)" x="13" y="12.5" width="21" height="23.5" rx="1.97485714"></rect>
+                        <rect id="矩形" fill="url(#linearGradient-5)" filter="url(#filter-6)" x="13" y="12.5" width="21" height="11" rx="1.97485714"></rect>
+                        <rect id="矩形" fill="url(#linearGradient-7)" filter="url(#filter-8)" x="15" y="14.5" width="17" height="19.5" rx="1.48114286"></rect>
+                        <path d="M21.4518223,23.2505 L26.8580937,23.2505 L26.8580937,21.7470378 L22.0535237,21.7470378 L22.0535237,21.0022311 L26.8580937,21.0022311 L26.8580937,19.4987689 L22.0535237,19.4987689 L22.0535237,18.7539622 L26.8580937,18.7539622 L26.8580937,17.2505 L21.4518223,17.2505 C20.8484758,17.2506917 20.3591776,17.6846353 20.3580937,18.2204944 L20.3580937,22.2805056 C20.3591776,22.8163647 20.8484758,23.2503083 21.4518223,23.2505 L21.4518223,23.2505 Z" id="路径备份-5" fill="url(#linearGradient-9)" fill-rule="nonzero"></path>
+                        <path d="M17.3580937,26.6396598 L17.3580937,29.8613402 C17.3591338,30.3525665 17.782903,30.7503176 18.3054163,30.7505 L22.3580937,30.7505 L22.3580937,29.3185559 L18.8835954,29.3185559 L18.8835954,28.9665275 L22.3580937,28.9665275 L22.3580937,27.5344725 L18.8835954,27.5344725 L18.8835954,27.1824441 L22.3580937,27.1824441 L22.3580937,25.7505 L18.3054163,25.7505 C17.782903,25.7506824 17.3591338,26.1484335 17.3580937,26.6396598 L17.3580937,26.6396598 Z" id="路径备份-6" fill="url(#linearGradient-10)" fill-rule="nonzero"></path>
+                        <path d="M28.9692693,25.7505 L25.7472503,25.7505 C25.2534463,25.7541177 24.8557117,26.1593246 24.8580937,26.6563504 L24.8580937,30.7505 L26.2901006,30.7505 L26.2901006,27.1895901 L26.6420403,27.1895901 L26.6420403,30.7505 L28.0740365,30.7505 L28.0740365,27.1895901 L28.4260869,27.1895901 L28.4260869,30.7505 L29.8580937,30.7505 L29.8580937,26.6563504 C29.8604765,26.159454 29.4629432,25.7543009 28.9692693,25.7505 L28.9692693,25.7505 Z" id="路径备份-7" fill="url(#linearGradient-11)" fill-rule="nonzero"></path>
+                        <rect id="矩形" fill="url(#linearGradient-12)" filter="url(#filter-13)" x="30" y="30.5" width="2.5" height="1"></rect>
+                        <g id="眼镜" transform="translate(24.000000, 27.500000)">
+                            <circle id="椭圆形备份-2" fill="#0039E6" opacity="0.489350818" filter="url(#filter-14)" cx="3.75" cy="3.75" r="3.25"></circle>
+                            <circle id="椭圆形备份-4" fill="#0039E6" filter="url(#filter-15)" cx="11.75" cy="3.75" r="3.25"></circle>
+                            <circle id="椭圆形备份-2" fill="url(#linearGradient-16)" filter="url(#filter-17)" cx="3.25" cy="3.25" r="3.25"></circle>
+                            <path d="M3.25,0 C5.04492544,0 6.5,1.45507456 6.5,3.25 C6.5,5.04492544 5.04492544,6.5 3.25,6.5 C1.45507456,6.5 0,5.04492544 0,3.25 C0,1.45507456 1.45507456,0 3.25,0 Z M3.25,1.08333333 C2.05338304,1.08333333 1.08333333,2.05338304 1.08333333,3.25 C1.08333333,4.44661696 2.05338304,5.41666667 3.25,5.41666667 C4.44661696,5.41666667 5.41666667,4.44661696 5.41666667,3.25 C5.41666667,2.05338304 4.44661696,1.08333333 3.25,1.08333333 Z" id="椭圆形" fill="url(#radialGradient-18)" filter="url(#filter-19)"></path>
+                            <circle id="椭圆形备份-3" fill="url(#linearGradient-16)" filter="url(#filter-20)" cx="10.75" cy="3.25" r="3.25"></circle>
+                            <path d="M10.75,0 C12.5449254,0 14,1.45507456 14,3.25 C14,5.04492544 12.5449254,6.5 10.75,6.5 C8.95507456,6.5 7.5,5.04492544 7.5,3.25 C7.5,1.45507456 8.95507456,0 10.75,0 Z M10.75,1.08333333 C9.55338304,1.08333333 8.58333333,2.05338304 8.58333333,3.25 C8.58333333,4.44661696 9.55338304,5.41666667 10.75,5.41666667 C11.946617,5.41666667 12.9166667,4.44661696 12.9166667,3.25 C12.9166667,2.05338304 11.946617,1.08333333 10.75,1.08333333 Z" id="椭圆形备份" fill="url(#radialGradient-18)" filter="url(#filter-21)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

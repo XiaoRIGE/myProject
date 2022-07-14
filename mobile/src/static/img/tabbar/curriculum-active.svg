@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tab/ic/sel/course@2x</title>
+    <defs>
+        <filter x="-15.0%" y="-37.5%" width="130.0%" height="173.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M4,3.55271368e-15 C4.25083924,3.55271368e-15 4.5011224,0.0235950069 4.74754227,0.0704732411 L4.74754227,0.0704732411 L10.5,1.165 L10.5,9.87548547 C10.5,10.1209454 10.6768752,10.3250938 10.9101244,10.3674298 L11,10.3754855 L12,10.3754855 C12.2761424,10.3754855 12.5,10.1516278 12.5,9.87548547 L12.5,9.87548547 L12.5,1.169 L18.2506433,0.0725230564 C20.3549117,-0.328794088 22.388305,0.997725793 22.886972,3.05715877 L22.9291811,3.25234745 C22.9762888,3.4993518 23,3.75024789 23,4.0017042 L23,4.0017042 L23,15.3935613 C23,17.313744 21.6355432,18.9630169 19.7493567,19.3227424 L19.7493567,19.3227424 L12.261841,20.7507296 C11.767342,20.8450384 11.2594846,20.8451557 10.764942,20.7510752 L10.764942,20.7510752 L3.25245773,19.3219211 C1.36542207,18.9629366 0,17.3132726 0,15.3923943 L0,15.3923943 L0,4 C0,1.790861 1.790861,3.55271368e-15 4,3.55271368e-15 Z" id="path-2"></path>
+        <filter x="-46.2%" y="-109.1%" width="192.3%" height="318.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="1⃣️首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页切图" transform="translate(-163.000000, -217.000000)">
+            <g id="tab/ic/sel/course" transform="translate(163.000000, 217.000000)">
+                <g id="椭圆形" transform="translate(2.500000, 3.988661)">
+                    <path d="M1.5,12.8215485 L21.5,12.8215485 L21.5,16.7456963 C21.5,17.6617544 20.87764,18.4607095 19.9894352,18.6848851 L12.5003201,20.5750757 C11.8592918,20.7368659 11.188156,20.7372437 10.5469459,20.5761752 L3.01274811,18.6836252 C2.12347764,18.4602452 1.5,17.6607839 1.5,16.7438867 L1.5,12.8215485 L1.5,12.8215485 Z" id="shadow" fill="#F55A21" filter="url(#filter-1)"></path>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="#F55B22" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <ellipse fill="#FF7D13" filter="url(#filter-4)" mask="url(#mask-3)" cx="11.5" cy="2.22815078" rx="13" ry="5.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

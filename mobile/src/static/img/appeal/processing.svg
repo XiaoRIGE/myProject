@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>处理中</title>
+    <g id="S-跑步申诉" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="申诉处理中" transform="translate(-18.000000, -114.000000)" fill-rule="nonzero">
+            <g id="处理中" transform="translate(18.000000, 114.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,23.25 C5.787,23.25 0.75,18.213 0.75,12 C0.75,5.787 5.787,0.75 12,0.75 C18.213,0.75 23.25,5.787 23.25,12 C23.25,18.213 18.213,23.25 12,23.25 Z" id="路径" fill="#FC6C37"></path>
+                <polygon id="路径" fill="#FFFFFF" transform="translate(12.340144, 11.638856) rotate(45.000000) translate(-12.340144, -11.638856) " points="14.4655009 14.2622127 13.0472509 15.6797127 11.6297509 14.2622127 6.38303735 9.01624909 7.80128735 7.59799909 13.0472509 12.8439627 16.8790009 9.01221265 18.2972509 10.4304627"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

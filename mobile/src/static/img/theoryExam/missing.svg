@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="92px" viewBox="0 0 94 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pic/exam/missing@2x</title>
+    <defs>
+        <radialGradient cx="73.2980842%" cy="21.1814074%" fx="73.2980842%" fy="21.1814074%" r="91.8144798%" gradientTransform="translate(0.732981,0.211814),scale(1.000000,0.996022),rotate(129.724919),scale(1.000000,0.700889),translate(-0.732981,-0.211814)" id="radialGradient-1">
+            <stop stop-color="#DCDBE0" stop-opacity="0.923950195" offset="0%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.674082082" offset="17.6083932%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.415960565" offset="38.1238169%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.489247355" offset="55.7743288%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.652767048" offset="80.6434123%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.150540118" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="71.8616904%" cy="28.0782139%" fx="71.8616904%" fy="28.0782139%" r="78.4741631%" gradientTransform="translate(0.718617,0.280782),scale(1.000000,0.968709),rotate(118.658609),scale(1.000000,0.803607),translate(-0.718617,-0.280782)" id="radialGradient-2">
+            <stop stop-color="#E3E3E8" offset="0%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.449570342" offset="17.6083932%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.720485447" offset="38.1238169%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.483994277" offset="55.7743288%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.67924062" offset="71.290048%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.150540118" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="101.445925%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#E1E0E5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.506027222" offset="9.01580276%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.476073258" offset="24.4494227%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.217367959" offset="30.3422104%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.563402829" offset="43.3902317%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.601256577" offset="91.4019786%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#E1E0E5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.606776631" offset="9.01580276%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.645387449" offset="46.0239666%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.104897666" offset="61.4255789%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.471335564" offset="71.3838889%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0.648444543" offset="85.0502725%"></stop>
+            <stop stop-color="#E1E0E5" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态" transform="translate(-824.000000, -772.000000)">
+            <g id="list" transform="translate(574.000000, 705.000000)">
+                <g id="pic/exam/missing" transform="translate(251.000000, 67.000000)">
+                    <rect id="矩形" transform="translate(46.000000, 46.000000) rotate(-360.000000) translate(-46.000000, -46.000000) " x="0" y="0" width="92" height="92"></rect>
+                    <g id="编组-2" transform="translate(46.000000, 46.000000) rotate(-360.000000) translate(-46.000000, -46.000000) translate(0.000000, 4.000000)">
+                        <path d="M87.4657529,41.0820618 C87.7751764,55.9016025 80.2438623,70.4321422 66.5549603,78.3669946 C52.8660584,86.3018469 36.5666374,85.5849328 23.9382985,77.9061237 L27.118231,76.0629044 C38.5532953,82.3170141 52.8640868,82.6202562 64.9666327,75.6049444 C77.0691787,68.5896325 83.9630037,55.99501 84.2858611,42.9253519 L87.4657529,41.0820618 Z M24.7290007,5.63300543 C39.5113404,-2.93566457 57.3378999,-1.41519982 70.298359,8.06637149 L67.2634272,9.82583994 C55.3991121,1.80184397 39.5402167,0.73033073 26.3173283,8.39505565 C13.0944398,16.0597806 6.08925885,30.3845899 7.07844583,44.7124177 L4.04329629,46.4715075 C2.34490488,30.4618126 9.94666098,14.2016754 24.7290007,5.63300543 Z" id="形状" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M61.5252563,69.6205022 C55.0789708,73.3571295 47.688697,74.6613622 40.5039858,73.4744207 L39.9786588,73.3831246 L40.3571959,71.2911386 C47.2171007,72.5423466 54.3014201,71.3526855 60.4663713,67.7791354 C67.9218672,63.4575134 72.8006532,56.375854 74.5615706,48.5618546 L76.992087,47.1532253 C75.5017262,56.25944 70.106509,64.6463287 61.5252563,69.6205022 Z M29.7587047,14.3794978 C39.5582583,8.69912901 51.1192934,8.85665137 60.4466415,13.7772878 L58.2450909,15.0531824 C49.7646376,11.0642141 39.5429958,11.1631317 30.8175898,16.2208646 C24.3068814,19.9948349 19.5845511,25.9881153 17.3708858,33.0307884 L17.2205234,33.5238256 L15.1903196,32.9187392 C17.4884325,25.1463357 22.6224408,18.5160751 29.7587047,14.3794978 Z" id="形状" fill="url(#radialGradient-2)" fill-rule="nonzero"></path>
+                        <polygon id="矩形" fill="url(#linearGradient-3)" transform="translate(37.264198, 28.442563) rotate(-30.000000) translate(-37.264198, -28.442563) " points="-5.13165855 27.453747 79.6637172 27.307265 79.6600552 29.431378 -5.1353206 29.57786"></polygon>
+                        <polygon id="矩形" fill="url(#linearGradient-4)" transform="translate(54.735802, 58.825115) rotate(-30.000000) translate(-54.735802, -58.825115) " points="12.3399448 57.8362995 97.1353206 57.6898174 97.1316585 59.8139304 12.3362828 59.9604124"></polygon>
+                        <g id="矩形" transform="translate(47.138392, 42.475984) rotate(-30.000000) translate(-47.138392, -42.475984) translate(22.164688, 26.475984)">
+                            <text id="蒙版" font-family="AlibabaPuHuiTi-Medium, Alibaba PuHuiTi" font-size="23.32" font-weight="400" letter-spacing="1.94333338" fill="#E1E0E6">
+                                <tspan x="0.0834907291" y="24">缺考</tspan>
+                            </text>
+                            <rect fill="" fill-rule="nonzero" x="-2.50026005" y="2.61078594" width="51.8853676" height="26.5778406"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

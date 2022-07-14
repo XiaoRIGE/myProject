@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pic/caution@2x</title>
+    <defs>
+        <radialGradient cx="71.2235889%" cy="23.2579252%" fx="71.2235889%" fy="23.2579252%" r="59.3946048%" id="radialGradient-1">
+            <stop stop-color="#FF7A38" offset="0%"></stop>
+            <stop stop-color="#FC5B1C" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="4⃣️个人中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="注销账户" transform="translate(-138.000000, -120.000000)">
+            <g id="pic/caution" transform="translate(138.000000, 120.000000)">
+                <rect id="矩形" x="0" y="0" width="100" height="100"></rect>
+                <g id="编组" transform="translate(11.000000, 11.000000)">
+                    <circle id="椭圆形" fill="url(#radialGradient-1)" cx="39" cy="39" r="39"></circle>
+                    <path d="M43,53 L43,61 L35,61 L35,53 L43,53 Z M43,17 L43,47 L35,47 L35,17 L43,17 Z" id="形状结合" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

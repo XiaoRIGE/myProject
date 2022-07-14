@@ -1,0 +1,117 @@
+<template>
+  <div class="mask" :style="{height: screenHeight + 'px'}" @click="mask">
+    <view class="wrapper">
+      <view class="title" v-if="showTitle">无效原因</view>
+      <view v-if="!showTitle" class="title no-title">
+        <text class="no-title-content">{{content}}</text>
+      </view>
+      <view class="content" v-if="showTitle">
+        <view class="content-info">
+          <text class="content-info-text">{{ content }}</text>
+        </view>
+      </view>
+      <view class="line" />
+      <view class="footer" @click="ok">
+        <text class="btn">我知道了</text>
+      </view>
+    </view>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      title: '',
+      content: '',
+      showTitle: true
+    };
+  },
+  mounted() {
+    uni.$on('popup-on', data => {
+      const { title, content, showTitle } = data;
+      this.title = title;
+      this.showTitle = showTitle;
+      this.content = content;
+    });
+  },
+  beforeDestroy() {
+    uni.$off('popup-on');
+  },
+  methods: {
+    ok() {
+      uni.$emit('popup-ok', 'ok');
+    },
+    mask() {
+      uni.$emit('popup-mask', 'mask');
+    }
+  }
+};
+</script>
+
+<style>
+.mask {
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.wrapper {
+  width: 640rpx;
+  display: flex;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.content {
+  margin: 24rpx 48rpx;
+}
+.title{
+  width: 640rpx;
+  height: 50rpx;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top:56rpx;
+  font-size:36rpx;
+  font-weight:bold;
+  color:rgba(34,34,34,1);
+}
+.content-info-text {
+  font-size: 32rpx;
+  color: #353535;
+  text-align:center;
+}
+.line {
+  margin: 0;
+  width: 640rpx;
+  height: 2rpx;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.footer {
+  width: 640rpx;
+  height: 120rpx;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.no-title {
+  margin-bottom: 64rpx
+}
+.no-title-content {
+  font-size: 34rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #222;
+}
+.btn {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #fc6c37;
+}
+</style>

@@ -1,0 +1,92 @@
+image: node:14.17.3
+
+services:
+  - name: docker:dind
+    command: ['--registry-mirror=http://hub-mirror.c.163.com']
+
+variables:
+  GIT_SSL_NO_VERIFY: '1'
+  DOCKER_DRIVER: 'overlay2'
+  DOCKER_TLS_CERTDIR: ''
+
+cache:
+  key:
+    files:
+      - yarn.lock
+  paths:
+    - node_modules
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  tags:
+    - frontend
+  only:
+    - dev
+    - beta
+    - main
+  artifacts:
+    name: '$CI_COMMIT_REF_SLUG'
+    when: on_success
+    expire_in: 1 week
+    paths:
+      - dist/
+  script:
+      - echo "VUE_APP_GET_MOBILE_CODE_SIGN_SALT=${GET_MOBILE_CODE_SIGN_SALT}" >> .env.local
+      - yarn config set registry https://registry.npm.taobao.org --global
+      - yarn
+      - if [ "$CI_COMMIT_REF_NAME" = "dev" ]; then yarn build:dev; fi
+      - if [ "$CI_COMMIT_REF_NAME" = "beta" ]; then yarn build:preview; fi
+      - if [ "$CI_COMMIT_REF_NAME" = "main" ]; then yarn build:product; fi
+
+dev_deploy:
+  image: docker:stable-dind
+  stage: deploy
+  tags:
+    - frontend
+  only:
+    - dev
+  script:
+    - echo ${DOCKER_REGISTRY_PASSWORD} > ./docker_password
+    - cat ./docker_password | docker login ${DOCKER_REGISTRY_URL} --username ${DOCKER_REGISTRY_USERNAME} --password-stdin
+
+    - docker build -t college-admin --no-cache .
+
+    - docker tag college-admin ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-develop
+    - docker push ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-develop
+
+beta_deploy:
+  image: docker:stable-dind
+  stage: deploy
+  tags:
+    - frontend
+  only:
+    - beta
+  script:
+    - echo ${DOCKER_REGISTRY_PASSWORD} > ./docker_password
+    - cat ./docker_password | docker login ${DOCKER_REGISTRY_URL} --username ${DOCKER_REGISTRY_USERNAME} --password-stdin
+
+    - docker build -t college-admin --no-cache .
+
+    - docker tag college-admin ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-preview
+    - docker push ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-preview
+
+main_deploy:
+  image: docker:stable-dind
+  stage: deploy
+  tags:
+    - frontend
+  only:
+    - main
+  script:
+    - echo ${DOCKER_REGISTRY_PASSWORD} > ./docker_password
+    - cat ./docker_password | docker login ${DOCKER_REGISTRY_URL} --username ${DOCKER_REGISTRY_USERNAME} --password-stdin
+
+    - docker build -t college-admin --no-cache .
+
+    - docker tag college-admin ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-stable
+    - docker push ${DOCKER_REGISTRY_URL}/ledreamer/college-admin-stable
+

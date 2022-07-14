@@ -1,0 +1,12 @@
+export { default as course } from './course';
+export { default as mine } from './mine';
+export { default as attainability } from './attainability';
+export { default as motion } from './motion';
+export { default as activity } from './activity';
+export { default as running } from './running';
+export { default as test } from './test';
+export { default as sports } from './sports';
+export { default as grade } from './grade';
+export { default as courseSelection } from './courseSelection';
+export { default as theoryExam } from './theoryExam';
+export { default as teacherEvaluation } from './teacherEvaluation';

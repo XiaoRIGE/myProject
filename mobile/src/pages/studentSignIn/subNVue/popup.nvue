@@ -1,0 +1,96 @@
+<template>
+  <div class="mask" :style="{height: screenHeight + 'px'}" @click="mask">
+    <view class="wrapper">
+      <view class="content">
+        <view class="content-info">
+          <text class="content-info-text">
+            {{ content }}
+          </text>
+        </view>
+      </view>
+      <view class="line" />
+      <view class="footer" @click="ok">
+        <text class="btn">我知道了</text>
+      </view>
+    </view>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      title: '',
+      content: ''
+    };
+  },
+  mounted() {
+    uni.$on('popup-on', data => {
+      const { title, content } = data;
+      this.title = title;
+      this.content = content;
+    });
+  },
+  beforeDestroy() {
+    uni.$off('popup-on');
+  },
+  methods: {
+    ok() {
+      uni.$emit('popup-ok', 'ok');
+    },
+    mask() {
+      uni.$emit('popup-mask', 'mask');
+    }
+  }
+};
+</script>
+
+<style>
+.mask {
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.wrapper {
+  width: 640rpx;
+  height: 380rpx;
+  display: flex;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.content {
+  margin: 56rpx 48rpx;
+}
+.content-info-text {
+  font-size: 32rpx;
+  text-align: center;
+  color: #353535;
+}
+.line {
+  margin-top: 56rpx;
+  margin: 0;
+  width: 640rpx;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.footer {
+  width: 640rpx;
+  height: 60rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #fc6c37;
+}
+</style>
