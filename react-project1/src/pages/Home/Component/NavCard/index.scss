@@ -1,3 +1,9 @@
+.card-box:not(:last-child) {
+  margin-right: 24px!important;
+}
+.card-box {
+  flex: 1;
+}
 .nav-card-content {
   display: flex;
   align-items: flex-start;

@@ -39,7 +39,8 @@ function Home () {
     <CustomBreadcrumb/>
     <div className="home-container">
       <div className='card-list'>
-          <Card bordered={false} className="hello-card" style={{ width: 743, height: 142 }}>
+        {/* width: 743, */}
+          <Card bordered={false} className="hello-card" style={{  height: 142,flex:1 }}>
             <div className='home-container-hello-card'>
               <div className='home-container-hello-card-left'>
                 <p className='title'>Hello！周小小</p>
@@ -48,7 +49,8 @@ function Home () {
               <img className='home-container-hello-card-img' src={welcome} alt="" />
             </div>
           </Card>
-           <Card title="快速开始" bordered={false} style={{ width: 417, height: 142 }}>
+          {/*  width: 417, */}
+           <Card title="快速开始" bordered={false} style={{ height: 142 }}>
             <Button type="text">新增作业井</Button>
             <Button type="text">新增设备</Button>
             <Button type="text">新增工具</Button>

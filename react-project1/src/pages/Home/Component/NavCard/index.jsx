@@ -9,7 +9,8 @@ import { Card } from 'antd';
 import './index.scss'
 function NavCard({card}) {
   return (
-    <Card bordered={false} style={{ width: 278, height: 118, marginRight: 24 }}>
+    // style={{ width: 278, height: 118, marginRight: 24 }}
+    <Card bordered={false} className='card-box'>
       <div className='nav-card-content'>
         <div className='nav-card-content-left'>
           <span className='title'>{card.title}</span>
