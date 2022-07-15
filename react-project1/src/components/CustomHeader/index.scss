@@ -1,0 +1,20 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-content-left, .header-content-right {
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    .title {
+      font-size: 20px;
+      font-family: AlibabaPuHuiTi_2_65_Medium;
+      color: #000;
+    }
+  }
+  .log-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+  }
+}

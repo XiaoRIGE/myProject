@@ -1,0 +1,46 @@
+
+.main-container {
+  .ant-layout-header {
+    box-sizing: border-box;
+    padding: 0 16px;
+    box-shadow: 0 1px 10px 0 rgba(16, 5, 45, 0.05);
+  }
+  .ant-layout {
+    background: transparent;
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      width: 192px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: #EF2424;
+    }
+    .ant-menu-item {
+      height: 40px;
+      margin-top: 8px;
+      margin-bottom: 0
+    }
+    .ant-menu.ant-menu-dark {
+      background-color: #121212
+    }
+    .ant-menu-title-content {
+      font-size: 14px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #FFF
+    }
+  }
+
+  .main-container {
+    height: calc(100vh - 66px);
+    box-sizing: border-box;
+    margin-top: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+    &-content {
+      height: calc(100vh - 66px);
+      box-sizing: border-box;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #F6F6F6;
+    }
+  }
+}

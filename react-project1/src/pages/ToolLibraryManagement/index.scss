@@ -1,0 +1,33 @@
+.tool-library-management-tags {
+  display: flex;
+  align-items: center;
+  div {
+    position: relative;
+    margin-right: 32px;
+    flex-shrink: 0;
+    height: 22px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 22px;
+    cursor: pointer;
+    &::after {
+      position: absolute;
+      bottom: -19px;
+      content: '';
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+  &-avtive {
+    span {
+      color: #EF2424;
+    }
+    &::after {
+      background-color: #EF2424 !important;
+    }
+  }
+}

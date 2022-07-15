@@ -1,0 +1,42 @@
+.home-container {
+  box-sizing: border-box;
+  padding: 0 24px;
+  
+  .hello-card {
+    margin-right: 24px;
+    .ant-card-body {
+      padding: 0 24px;
+    }
+  }
+  .card-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .home-container-hello-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-left {
+      .title {
+        font-size: 32px;
+        margin: 0;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.85);
+      }
+      .sub-title {
+        font-size: 14px;
+        margin-top: 8px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.45)
+      }
+
+    }
+    &-img {
+      width: 335px;
+      height: 142px;
+    }
+  }
+}
